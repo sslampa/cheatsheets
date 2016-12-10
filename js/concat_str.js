@@ -8,13 +8,13 @@
  * String + String -> String or String.concat(String) -> String
  */
 
-var stringOne = "Hello"
-var stringTwo = "World"
-var stringSpace = " "
+var stringOne = "Hello";
+var stringTwo = "World";
+var stringSpace = " ";
 
-var stringConcatOne = stringOne + stringSpace + stringTwo
+var stringConcatOne = stringOne + stringSpace + stringTwo;
 
-var stringConcatTwo = stringOne.concat(stringSpace).concat(stringTwo)
+var stringConcatTwo = stringOne.concat(stringSpace).concat(stringTwo);
 
 console.log(stringConcatOne); //Should return "Hello World"
 console.log(stringConcatTwo); //Should return "Hello World"
@@ -24,8 +24,8 @@ console.log(stringConcatTwo); //Should return "Hello World"
  * '+=' to update an initialized string (in this case emptyString).
  */
 
-var emptyString = ""
-var stringArray = [stringOne, stringSpace, stringTwo]
+var emptyString = "";
+var stringArray = [stringOne, stringSpace, stringTwo];
 
 for (var i = 0; i < stringArray.length; i++) {
   emptyString += stringArray[i];
@@ -47,11 +47,13 @@ console.log(emptyString); //Should return "Hello World"
 
 /*
  * Purpose: Combine an array of strings into one strings
- * Array -> String
+ * Array.join(separator) -> String
+ * separator -> Takes in string that separates each joined value.
+ *   Default values is ","
  */
 
-var newUpdateString = ""
-var newStringArray = ["He", "Who", "Must", "Not", "Be", "Named"]
+var newUpdateString = "";
+var newStringArray = ["He", "Who", "Must", "Not", "Be", "Named"];
 
 newUpdateString = newStringArray.join(" ");
 console.log(newUpdateString); //Should return "He Who Must Not Be Named"
@@ -66,3 +68,16 @@ console.log(newUpdateString); //Should return "He + Who + Must + Not + Be + Name
 
 newUpdateString = newStringArray.join("-");
 console.log(newUpdateString); //Should return "He-Who-Must-Not-Be-Named"
+
+ /*
+  * Purpose: Copy given string onto itself into new string
+  * String.repeat(times) -> String
+  * times -> number of times string is repeated
+  */
+
+var repeatString = "Repeat";
+
+console.log(repeatString.repeat(3)); //Returns "RepeatRepeatRepeat"
+
+// Truncates to 3
+console.log(repeatString.repeat(3.5)); //Returns "RepeatRepeatRepeat"
