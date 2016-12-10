@@ -8,13 +8,13 @@
  * String + String -> String or String.concat(String) -> String
  */
 
-stringOne = "Hello"
-stringTwo = "World"
-stringSpace = " "
+var stringOne = "Hello"
+var stringTwo = "World"
+var stringSpace = " "
 
-stringConcatOne = stringOne + stringSpace + stringTwo
+var stringConcatOne = stringOne + stringSpace + stringTwo
 
-stringConcatTwo = stringOne.concat(stringSpace).concat(stringTwo)
+var stringConcatTwo = stringOne.concat(stringSpace).concat(stringTwo)
 
 console.log(stringConcatOne); //Should return "Hello World"
 console.log(stringConcatTwo); //Should return "Hello World"
@@ -24,8 +24,8 @@ console.log(stringConcatTwo); //Should return "Hello World"
  * '+=' to update an initialized string (in this case emptyString).
  */
 
-emptyString = ""
-stringArray = [stringOne, stringSpace, stringTwo]
+var emptyString = ""
+var stringArray = [stringOne, stringSpace, stringTwo]
 
 for (var i = 0; i < stringArray.length; i++) {
   emptyString += stringArray[i];
@@ -50,8 +50,8 @@ console.log(emptyString); //Should return "Hello World"
  * Array -> String
  */
 
-newUpdateString = ""
-newStringArray = ["He", "Who", "Must", "Not", "Be", "Named"]
+var newUpdateString = ""
+var newStringArray = ["He", "Who", "Must", "Not", "Be", "Named"]
 
 newUpdateString = newStringArray.join(" ");
 console.log(newUpdateString); //Should return "He Who Must Not Be Named"
