@@ -1,5 +1,3 @@
-
-
 var someStr = "   stringTObeMANIPULATED     ";
 
 // Changes string to all lowercase

@@ -26,5 +26,5 @@ Shows the different methods to manipulate strings.
 Shows the different methods to slice a string.
 
 - [.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) Extracts a section of a string based on index
-- [.substr()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr) Extracts a section of a string based on index and how length of desired string
+- [.substr()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr) Extracts a section of a string based on index and the length of desired string
 - [.substring()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring) Extracts a section of a string based on index

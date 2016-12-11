@@ -1,8 +1,4 @@
 /*
- * Ways to concatenate a string
- */
-
-/*
  * concat(); '+'; '+='
  * Purpose: To combine strings
  * String + String -> String or String.concat(String) -> String
