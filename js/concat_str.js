@@ -39,13 +39,7 @@ console.log(emptyString); //Should return "Hello World"
  */
 
 /*
- * In the previous examples, a blank space was needed to add the space between
- * two strings. If you were concatenating a longer array of strings, it would
- * be annoyingly long to put stringSpace between each string. Using the '.join'
- * method should alleviate the problem.
- */
-
-/*
+ * join()
  * Purpose: Combine an array of strings into one strings
  * Array.join(separator) -> String
  * separator -> Takes in string that separates each joined value.
@@ -69,7 +63,34 @@ console.log(newUpdateString); //Should return "He + Who + Must + Not + Be + Name
 newUpdateString = newStringArray.join("-");
 console.log(newUpdateString); //Should return "He-Who-Must-Not-Be-Named"
 
+/*
+ * split()
+ * Purpose: Splits the string into an array based on a separator
+ * String.split(separator, limit) -> array
+ * separator -> Takes in string that separates each joined value.
+ *   If empty, will place whole string into array
+ * limit -> How many times to split the string
+ */
+
+var toSplitStr = "Blast from the past"
+var splitArrayOne = toSplitStr.split(),
+    splitArrayTwo = toSplitStr.split(""),
+    splitArrayThree = toSplitStr.split(" ");
+
+  //Returns ["Blast from the past"]
+  console.log(splitArrayOne);
+
+  /*
+   * Returns ["B", "l", "a", "s", "t", " ", "f", "r", "o", "m", " ", "t", "h", "e",
+   *          " ", "p", "a", "s", "t"]
+   */
+  console.log(splitArrayTwo);
+
+  //Returns ["Blast", "from", "the", "past"]
+  console.log(splitArrayThree);
+
  /*
+  * repeat()
   * Purpose: Copy given string onto itself into new string
   * String.repeat(times) -> String
   * times -> number of times string is repeated

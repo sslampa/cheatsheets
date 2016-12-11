@@ -1,8 +1,4 @@
-//.toLowerCase
-//.toUpperCase
-//.trim
-//.trimLeft
-//.trimRight
+
 
 var someStr = "   stringTObeMANIPULATED     ";
 
