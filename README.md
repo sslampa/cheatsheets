@@ -38,3 +38,13 @@ Shows the different methods to add or remove items in an array.
 - [.shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift) Removes first item of array and returns that item
 - [.unshift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift) Adds item(s) to array and returns new length of array
 - [.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) Removes/adds new item(s) it an array
+
+## find_arr.js
+
+Shows the different methods to search for an element in an array
+
+- [.find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) Returns value of the first element to satisfy test function. Else returns undefined
+- [.findIndex()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) Returns index of the first element to satisfy test function. Else returns -1
+- [.indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) Returns first index which a given element is found. Else returns -1
+- [.lastIndexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf) Returns last index which a given element is found. Else returns -1
+- [.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) Returns true/false if element is found within array.
