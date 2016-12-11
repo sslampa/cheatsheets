@@ -75,3 +75,23 @@ Other array methods that I was unsure how to categorize
 - [.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) Returns array from a given start/end index
 - [.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) Sorts elements in place
 - [.toString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString) Joins an array of strings into one string by ','
+
+## loops.js
+
+Different kinds of loops found in JavaScript and keywords to supplement those loops
+
+- [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+- [for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+- [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
+- [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
+- [do..while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
+- [continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue)
+- [label](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label)
+
+## control_flow.js
+
+Different control flow statements
+
+- [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+- [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+- [default](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/default)
