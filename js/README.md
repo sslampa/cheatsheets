@@ -1,6 +1,6 @@
 # JavaScript
 
-## concat_str.js
+## add_to_str.js
 
 Shows the different methods to put strings together.
 
@@ -9,9 +9,9 @@ Shows the different methods to put strings together.
 - [.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) Splits a string into an array
 - [.repeat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat) Copies string onto itself
 
-## str_manipulation.js
+## change_str.js
 
-Shows the different methods to manipulate strings.
+Shows the different methods to change strings.
 
 - [.toLowerCase()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase) Changes string to all lowercase
 - [.toUpperCase()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase) Changes string to all uppercase
