@@ -49,7 +49,7 @@ newUpdateString = newStringArray.join(" ");
 console.log(newUpdateString); //Should return "He Who Must Not Be Named"
 
 /*
- * Note: When using the '.join' method, it does not need to be just a space (" ")
+ * Note: When using the 'join()' method, it does not need to be just a space (" ")
  * , it can be any kind of separator you like.
  */
 
