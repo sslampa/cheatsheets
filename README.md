@@ -47,4 +47,31 @@ Shows the different methods to search for an element in an array
 - [.findIndex()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) Returns index of the first element to satisfy test function. Else returns -1
 - [.indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) Returns first index which a given element is found. Else returns -1
 - [.lastIndexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf) Returns last index which a given element is found. Else returns -1
-- [.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) Returns true/false if element is found within array.
+
+## test_arr.js
+
+Shows the different methods that tests if elements are in an array
+
+- [.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) Returns true/false if element is found within array
+- [.some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some) Tests whether at least one element satisfies the condition
+- [.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every) Tests whether all elements satisfy the condition
+- [.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) Tests entire array and passes elements into new array that satisfy the condition
+
+## loop_arr.js
+
+Shows the different methods that loop through the entire array
+
+- [.forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) Applies a given function to all elements in array
+- [.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) Transforms all elements of an array given a function
+- [.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) Applies a given function that reduces elements into a single value
+
+## miscellaneous_arr.js
+
+Other array methods that I was unsure how to categorize
+
+- [.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) Merges two or more arrays
+- [.fill()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill) Fills array with a value from start to end
+- [.reverse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse) Reverses array elements in place
+- [.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) Returns array from a given start/end index
+- [.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) Sorts elements in place
+- [.toString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString) Joins an array of strings into one string by ','
