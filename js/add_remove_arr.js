@@ -1,6 +1,6 @@
 /*
  * pop()
- * Removes last element of array and returns that element
+ * Purpose: Removes last element of array and returns that element
  * Array.pop() -> Element(String, Integer, Array, etc)
  */
 
@@ -11,7 +11,7 @@ console.log(arrayOfNumbers); //Returns [1, 2, 3, 4, 5, 6, 7, 8]
 
 /*
  * push()
- * Adds element(s) to array and returns new length of array
+ * Purpose: Adds element(s) to array and returns new length of array
  * Array.push(item_or_element) -> Integer
  * item_or_element -> Can be a single item or elements
  */
@@ -23,7 +23,7 @@ console.log(arrayOfNumbers); //Returns [1, 2, 3, 4, 5, 6, 7, 8, 99, 1010, 1111, 
 
 /*
  * shift()
- * Removes first element of array and returns that element
+ * Purpose: Removes first element of array and returns that element
  * Array.shift() -> Element(String, Integer, Array, etc)
  */
 
@@ -33,7 +33,7 @@ console.log(arrayOfNumbers); //Returns [2, 3, 4, 5, 6, 7, 8, 99, 1010, 1111, 121
 
 /*
  * unshift()
- * Adds element(s) to array and returns new length of array
+ * Purpose: Adds element(s) to array and returns new length of array
  * Array.unshift(item_or_element) -> Integer
  * item_or_element -> Can be a single item or elements
  */
@@ -45,7 +45,7 @@ console.log(arrayOfNumbers); //Returns [101, 102, 103, 100, 2, 3, 4, 5, 6, 7, 8,
 
 /*
  * splice
- * Removes/adds new element(s) at an array and returns removed element(s)
+ * Purpose: Removes/adds new element(s) at an array and returns removed element(s)
  * Array.splice(start, num_to_delete, item_or_element) -> Array
  * start -> Index of where to start adding/deleting elements
  * num_to_delete -> Specifies the amount of elements to delete at/after start
