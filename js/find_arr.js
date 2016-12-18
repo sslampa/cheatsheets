@@ -37,14 +37,17 @@ function wheresTheBeef(element) {
  * Purpose: Returns first index which a given element is found. Else returns -1
  */
 
+['veil', 'nail', 'Dale', 'Christian Bale', 'veil', 'kale', 'tail'].indexOf('veil'); //Returns 0
 
+//The second argument specifies the starting point to search for the given string.
+//'veil' is at index of 0 and 4, but since it starts at 2, will return 4 instead of 0;
+['veil', 'nail', 'Dale', 'Christian Bale', 'veil', 'kale', 'tail'].indexOf('veil', 2); //Returns 4
 
 /*
  * lastIndexOf()
  * Purpose: Returns last index which a given element is found. Else returns -1
  */
 
-/*
- * includes()
- * Purpose: Returns true/false if element is found within array.
- */
+['tall', 'mall', 'call', 'Saul', 'fall', 'tall', 'null'].lastIndexOf('tall'); //Returns 5
+
+['tall', 'mall', 'call', 'Saul', 'fall', 'tall', 'null'].lastIndexOf('tall', 3); //Returns 0
