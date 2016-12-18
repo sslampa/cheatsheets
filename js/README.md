@@ -93,3 +93,10 @@ Different control flow statements
 - [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 - [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 - [default](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/default)
+
+## objects.js
+
+Objects and Closures
+
+- [Object class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+- Closures Function that returns a function
